@@ -9,7 +9,7 @@ $(document).ready(function() {
 		
 		$('#select_lang').change(function(){ 
 			val = $(this).find(":selected").val();
-			Str = val;	//http://117.0.0.1/CPG/en/xxx.html
+			Str = val;	//http://117.0.0.1/PIT/en/xxx.html
 			window.location.href= Str; 			
 		});
 		

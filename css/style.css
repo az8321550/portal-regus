@@ -29,13 +29,13 @@ a{
 #bg_header{
 	width:100%;
 	height:137px;
-	background-image:url("../images/header_bg.png")/*tpa=http://www.cpg-ltd.com/images/header_bg.png*/;
+	background-image:url("../images/header_bg.png")/*tpa=http://www.PIT-ltd.com/images/header_bg.png*/;
 	background-repeat:repeat-x;
 }
 #bg_banner{
 	width:100%;
 	height:336px;
-	background-image:url("../images/banner_bg.png")/*tpa=http://www.cpg-ltd.com/images/banner_bg.png*/;
+	background-image:url("../images/banner_bg.png")/*tpa=http://www.PIT-ltd.com/images/banner_bg.png*/;
 	background-repeat:repeat-x;
 }
 /******************************************
@@ -51,7 +51,7 @@ a #logo{
 	position: absolute;
 	width: 128px;
 	height: 64px;
-	background-image: url("../images/cpglogo.png")/*tpa=http://www.cpg-ltd.com/images/cpglogo.png*/;
+	background-image: url("../images/PITlogo.png")/*tpa=http://www.PIT-ltd.com/images/PITlogo.png*/;
 	margin: 37px 0 0 10px;
 }
 #navigation{
@@ -155,7 +155,7 @@ a #logo{
 	width:17px;
 	height:0;
 	padding-top:17px;
-	background-image:url("../images/pagination.png")/*tpa=http://www.cpg-ltd.com/images/pagination.png*/;
+	background-image:url("../images/pagination.png")/*tpa=http://www.PIT-ltd.com/images/pagination.png*/;
 	background-position:0 0;
 	float:left;
 	overflow:hidden;
@@ -216,13 +216,13 @@ a #logo{
 a .section_btn{
 	width:163px;
 	height:32px;
-	background-image:url("../images/btn_learn.png")/*tpa=http://www.cpg-ltd.com/images/btn_learn.png*/;
+	background-image:url("../images/btn_learn.png")/*tpa=http://www.PIT-ltd.com/images/btn_learn.png*/;
 	color:#016999;
 	cursor:pointer;
 	text-decoration:none;
 }
 a .section_btn:hover{
-	background-image:url("../images/btn_learn_over.png")/*tpa=http://www.cpg-ltd.com/images/btn_learn_over.png*/;
+	background-image:url("../images/btn_learn_over.png")/*tpa=http://www.PIT-ltd.com/images/btn_learn_over.png*/;
 	color:#FFF;
 	text-decoration:none;
 }
@@ -262,7 +262,7 @@ a .section_btn span{
 	display: inline-block;
 	width:3px;
 	height:11px;
-	background-image:url("../images/icon_title.png")/*tpa=http://www.cpg-ltd.com/images/icon_title.png*/;
+	background-image:url("../images/icon_title.png")/*tpa=http://www.PIT-ltd.com/images/icon_title.png*/;
 	background-repeat:no-repeat;
 	margin-right: 5px;
 	*position: relative;
@@ -277,7 +277,7 @@ a .section_btn span{
 #left_section2{
 	width:180px;
 	height:96px;
-	background-image:url("../images/btn_join.jpg")/*tpa=http://www.cpg-ltd.com/images/btn_join.jpg*/;
+	background-image:url("../images/btn_join.jpg")/*tpa=http://www.PIT-ltd.com/images/btn_join.jpg*/;
 	background-repeat:no-repeat;
 	margin-top: 10px;
 	cursor:pointer;
@@ -304,7 +304,7 @@ a .left_sec2_join{
 #left_section3{
 	width:180px;
 	height:96px;
-	background-image:url("../images/btn_recruitment.png")/*tpa=http://www.cpg-ltd.com/images/btn_recruitment.png*/;
+	background-image:url("../images/btn_recruitment.png")/*tpa=http://www.PIT-ltd.com/images/btn_recruitment.png*/;
 	background-repeat:no-repeat;
 	margin-top: 10px;
 	cursor:pointer;
@@ -361,7 +361,7 @@ a .left_sec3_title{
 	display:inline-block;
 	width:9px;
 	height:9px;
-	background-image:url("../images/icon_bread.png")/*tpa=http://www.cpg-ltd.com/images/icon_bread.png*/;
+	background-image:url("../images/icon_bread.png")/*tpa=http://www.PIT-ltd.com/images/icon_bread.png*/;
 	background-repeat:no-repeat;
 	*position:relative;
 	*margin-top:-12px;
@@ -377,7 +377,7 @@ a .left_sec3_title{
 .right_bottom_pic{
 	width:545px;
 	height:248px;
-	background-image:url("../images/right_content_img.png")/*tpa=http://www.cpg-ltd.com/images/right_content_img.png*/;
+	background-image:url("../images/right_content_img.png")/*tpa=http://www.PIT-ltd.com/images/right_content_img.png*/;
 	background-repeat:no-repeat;
 	margin-left: 195px;
 }
@@ -399,7 +399,7 @@ a .left_sec3_title{
 	display:inline-block;
 	width:34px;
 	height:21px;
-	background-image:url("../images/icon_top.png")/*tpa=http://www.cpg-ltd.com/images/icon_top.png*/;
+	background-image:url("../images/icon_top.png")/*tpa=http://www.PIT-ltd.com/images/icon_top.png*/;
 	background-repeat:no-repeat;
 }
 .back_top a{
