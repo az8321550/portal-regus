@@ -1,0 +1,554 @@
+@charset "utf-8";
+
+html,
+body {
+	font-family:"Microsoft YaHei","Arial","Georgia";
+   	margin:0;
+   	padding:0;
+   	height:100%;
+	font-size:12px;
+	background:#dcdcdc;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+
+
+/******************************************
+************ Background *******************
+******************************************/
+#bg {
+   min-height:100%;
+   position:relative;
+}
+#bg_header{
+	width:100%;
+	height:137px;
+	background-image:url("../images/header_bg.png")/*tpa=http://www.cpg-ltd.com/images/header_bg.png*/;
+	background-repeat:repeat-x;
+}
+#bg_banner{
+	width:100%;
+	height:336px;
+	background-image:url("../images/banner_bg.png")/*tpa=http://www.cpg-ltd.com/images/banner_bg.png*/;
+	background-repeat:repeat-x;
+}
+/******************************************
+**************** Header *******************
+******************************************/
+#header_content{
+	position:relative;
+	width:1000px;
+	margin: 0 auto;
+	height:137px;
+}
+a #logo{
+	position: absolute;
+	width: 128px;
+	height: 64px;
+	background-image: url("../images/cpglogo.png")/*tpa=http://www.cpg-ltd.com/images/cpglogo.png*/;
+	margin: 37px 0 0 10px;
+}
+#navigation{
+	position: absolute;
+	width:570px;
+	height:40px;
+	margin: 60px 0 0 330px;
+	
+}
+#navigation a{
+	text-decoration:none;
+}
+.nav_title{
+	font-family:"Georgia";
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+}
+.nav_text{
+	font-family:"Arial";
+	font-size:11px;
+	color:#b7b7b7;
+}
+#navigation li{
+	float:left;
+	width:106px;
+	height:40px;
+	border-left:1px dashed #dd127b;
+	margin: 0 0 0 5px;
+	cursor:pointer;
+}
+#navigation li:hover,
+#navigation li.active{
+	border-top:5px solid #dd127b;
+	height:35px;
+}
+#navigation li:hover .nav_title,
+#navigation li.active .nav_title{
+	color:#dd127b;
+	*padding-top:2px;
+}
+#navigation span{
+	display:block;
+	padding-left: 5px;
+}
+#language_select{
+	position: absolute;
+	right: 10px;
+	top: 62px;
+}
+/******************************************
+**************** Banner *******************
+******************************************/
+#slides {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	top: 22px;
+}
+#slides.in_slide{
+	top:0;
+}
+.slides_container {
+	width:980px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	margin: 0 auto;
+}
+.slides_container a {
+	width:980px;
+	height:350px;
+	display:block;
+	cursor:default;
+}
+.in_slide .slides_container a {
+	width:980px;
+	height:164px;
+	display:block;
+	cursor:default;
+}
+.slides_container a img {
+	display:block;
+	border:0;
+}
+.pagination {
+	position: absolute;
+	margin: -35px 0 0 41px;
+	width: 100px;
+	z-index: 10;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:17px;
+	height:0;
+	padding-top:17px;
+	background-image:url("../images/pagination.png")/*tpa=http://www.cpg-ltd.com/images/pagination.png*/;
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -18px;
+}
+/******************************************
+**************** Content *******************
+******************************************/
+#content{
+   	padding-bottom:40px;  
+	width: 1000px;
+	margin: 36px auto;
+}
+#section_welcome{
+	width:300px;
+	height:405px;
+	margin-left: 20px;
+	position: absolute;
+	*position: relative;
+}
+#section_future{
+	width:300px;
+	height:405px;
+	margin-left: 350px;
+	position: relative;
+	*position: relative;
+	*margin-top:-405px;
+}
+#section_join{
+	width:300px;
+	height:405px;
+	margin-left: 680px;
+	margin-top: -405px;
+	position: relative;
+}
+.section_title{
+	font-family:"Georgia";
+	font-size:21px;
+	color:#11719e;
+}
+.section_text{
+	font-family:"Arial";
+	font-size:12px;
+	color:#666;
+	height: 35px;
+}
+.section_detail{
+	font-family:"Arial";
+	font-size:12px;
+	color:#3e3e3e;
+	line-height: 18px;
+	letter-spacing: 1px;
+	height: 115px;
+}
+a .section_btn{
+	width:163px;
+	height:32px;
+	background-image:url("../images/btn_learn.png")/*tpa=http://www.cpg-ltd.com/images/btn_learn.png*/;
+	color:#016999;
+	cursor:pointer;
+	text-decoration:none;
+}
+a .section_btn:hover{
+	background-image:url("../images/btn_learn_over.png")/*tpa=http://www.cpg-ltd.com/images/btn_learn_over.png*/;
+	color:#FFF;
+	text-decoration:none;
+}
+a .section_btn span{
+	position: absolute;
+	margin: 7px 0 0 10px;
+	text-decoration:none;
+}
+
+#container{
+   	padding-bottom:40px;  
+	width: 980px;
+	margin: -172px auto;
+	background: #FFF;
+	*margin: -172px auto 0 auto;
+}
+
+#left{
+	float: left;
+	width: 180px;
+	margin-left: 20px;
+	color: #666;
+	
+}
+#left_section1{
+	width:178px;
+	border:1px solid #CCC;
+	line-height: 16px;
+}
+#left_section1 ul{
+	margin:10px;
+}
+#left_section1 li{
+	margin-bottom:5px;
+}
+.icon-title{
+	display: inline-block;
+	width:3px;
+	height:11px;
+	background-image:url("../images/icon_title.png")/*tpa=http://www.cpg-ltd.com/images/icon_title.png*/;
+	background-repeat:no-repeat;
+	margin-right: 5px;
+	*position: relative;
+	*margin-top:-13px;
+	
+}
+.left_title{
+	color:#11719e;
+	font-size:14px;
+	font-weight:bold;
+}
+#left_section2{
+	width:180px;
+	height:96px;
+	background-image:url("../images/btn_join.jpg")/*tpa=http://www.cpg-ltd.com/images/btn_join.jpg*/;
+	background-repeat:no-repeat;
+	margin-top: 10px;
+	cursor:pointer;
+}
+a .left_sec2_title{
+	position: absolute;
+	font-family: "Georgia";
+	font-size: 21px;
+	text-align: right;
+	margin: 7px 10px 0 74px;
+	text-decoration:none;
+	color:#666;
+}
+a .blue_text{
+	color:#11719e;
+	text-decoration:none;
+}
+a .left_sec2_join{
+	position: absolute;
+	color: #FFF;
+	margin: 67px 0 0 94px;
+	text-decoration:none;
+}
+#left_section3{
+	width:180px;
+	height:96px;
+	background-image:url("../images/btn_recruitment.png")/*tpa=http://www.cpg-ltd.com/images/btn_recruitment.png*/;
+	background-repeat:no-repeat;
+	margin-top: 10px;
+	cursor:pointer;
+}
+a .left_sec3_title{
+	position: absolute;
+	font-family: "Georgia";
+	font-size: 21px;
+	text-align: right;
+	margin: 43px 10px 0 52px;
+	text-decoration:none;
+	color:#666;
+}
+#right{
+	position: relative;
+	width: 740px;
+	min-height: 740px;
+	margin-left: 220px;
+}
+#right_title{
+	width:100%;
+	height:28px;
+	border-bottom:1px solid #d3d4d6;
+}
+.right_title_text{
+	font-family:"Georgia";
+	font-size:28px;
+	color:#11719e;
+	border-bottom:3px solid #11719e;
+	line-height: 26px;
+}
+.right_title_text.title_about{
+	width:150px;
+}
+.right_title_text.title_career{
+	width:100px;
+}
+.right_title_text.title_join{
+	width:234px;
+}
+.right_title_text.title_recruitment{
+	width:268px;
+}
+.right_title_text.title_contact{
+	width:145px;
+}
+.right_link{
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	color:#666;
+}
+.icon_bread{
+	display:inline-block;
+	width:9px;
+	height:9px;
+	background-image:url("../images/icon_bread.png")/*tpa=http://www.cpg-ltd.com/images/icon_bread.png*/;
+	background-repeat:no-repeat;
+	*position:relative;
+	*margin-top:-12px;
+}
+#right_content{
+	margin-top:15px;
+	color:#666;
+}
+.right_content_pic{
+	float:left;
+	margin: 0px 10px 10px 0px;
+}
+.right_bottom_pic{
+	width:545px;
+	height:248px;
+	background-image:url("../images/right_content_img.png")/*tpa=http://www.cpg-ltd.com/images/right_content_img.png*/;
+	background-repeat:no-repeat;
+	margin-left: 195px;
+}
+.right_bottom_pic.contact_bottom_pic{
+	margin-top:400px;
+}
+.back_top{
+	text-align: center;
+	margin: -40px 0 10px 700px;
+	cursor:pointer;
+}
+.back_top.join_back{
+	margin: -18px 0 10px 700px;
+}
+.back_top.career_back{
+	margin: 10px 0 0 700px;
+}
+.btn_back_top{
+	display:inline-block;
+	width:34px;
+	height:21px;
+	background-image:url("../images/icon_top.png")/*tpa=http://www.cpg-ltd.com/images/icon_top.png*/;
+	background-repeat:no-repeat;
+}
+.back_top a{
+	color:#3783a9;
+	font-size:13px;
+	text-decoration:none;
+	
+}
+.right_content_section{
+	border-bottom: 1px solid #e5e5e5;
+}
+.right_content_section table span{
+	width:232px;
+	display: block;
+}
+.right_content_section table img{
+	margin-top:10px;
+}
+.right_content_title{
+	color:#11719e;
+	font-size:14px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.right_content_red{
+	color: #880000;
+	display: block;
+}
+.job_title{
+	color:#dd127b;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+	letter-spacing:1px;
+	padding-top:15px;
+}
+.job_title label{
+	background:#dcdcdc;
+	padding: 2px 5px;
+}
+.job_detail ul{
+	color:#666;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+	line-height:2em;
+}
+.job_line{
+	border-bottom:1px solid #dcdcdc;
+    text-align: center;
+	padding-top:20px;
+}
+.job_detail li{
+	color:#ff7800;
+	font-size:12px;
+	font-weight:normal;
+	list-style:outside square;
+	margin-left: 15px;
+	line-height:1.6;
+}
+.job_detail li span{
+	color:#666;
+}
+.page_link{
+	margin: 0px 36% 30px;
+}
+.page a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+.page a, .page span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+.page .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+.page .current.prev, .page .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+
+/******************************************
+**************** Footer *******************
+******************************************/
+#bg_footer{
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+   	height:45px;   
+   	background:#333;
+   	border-top:10px solid #4c4c4c;
+	bottom: -36px;
+}
+#bg_footer.about_footer{
+	margin-top:172px;
+}
+#footer_content{
+	position: relative;
+	width: 1000px;
+	height: 45px;
+	margin: 0 auto;
+}
+#footer_nav{
+	position: absolute;
+	width: 600px;
+	height: 20px;
+	margin: 12px 0 0 0;
+}
+#footer_nav li{
+	float:left;
+	margin:0 10px;
+	height:20px;
+}
+#footer_nav li a{
+	text-decoration:none;
+	color:#FFF;
+}
+#footer_nav li:hover a{
+	text-decoration:underline;
+	color:#00ccff;
+}
+
+.sep-line{
+	border-right:1px solid #666;
+	cursor:default;
+}
+#copyright{
+	position: absolute;
+	color: #999;
+	right: 10px;
+	top: 12px;
+}
+#gotop {
+	display:block;
+    position:fixed;
+	right:20px;
+    bottom:55px;    
+    padding: 10px 15px;    
+    font-size: 14px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+}

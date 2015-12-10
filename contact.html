@@ -1,0 +1,147 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to CPG</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script type="text/javascript" src="js/cpgltdga.js"></script>
+    <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--返回頂端star-->
+    <script type="text/javascript">
+        $(function(){
+            $("#gotop").click(function(){
+                jQuery("html,body").animate({
+                    scrollTop:0
+                },1000);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 100){
+                    $('#gotop').fadeIn("fast");
+                } else {
+                    $('#gotop').stop().fadeOut("fast");
+                }
+            });
+        });
+    </script><!--返回頂端END-->
+
+</head>
+<body>
+<div id="bg">
+    <div id="bg_header">
+        <div id="header_content">
+            <a href="index.html"><div id="logo"></div></a>
+            <div id="navigation">
+                <ul>
+                    <li><a href="index.html">
+                        <span class="nav_title">HOME</span>
+                        <span class="nav_text">Back to home</span>
+                    </a>
+                    </li>
+                    <li><a href="about.html">
+                        <span class="nav_title">ABOUT CPG</span>
+                        <span class="nav_text">About CPG</span>
+                    </a>
+                    </li>
+                    <li><a href="careers.html">
+                        <span class="nav_title">CAREERS</span>
+                        <span class="nav_text">Your Careers</span>
+                    </a>
+                    </li>
+                    <li><a href="join.html">
+                        <span class="nav_title">JOIN US</span>
+                        <span class="nav_text">Current Vacancies</span>
+                    </a>
+                    </li>
+                    <li class="active"><a href="contact.html">
+                        <span class="nav_title">CONTACT</span>
+                        <span class="nav_text">Ways to reach us</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="language_select">
+                <select id="select_lang">
+                    <option value="contact.html" selected="selected">English</option>
+                    <option value="cn/contact.html">简体中文</option>
+                    <option value="zh/contact.html">繁體中文</option>
+                </select>
+            </div>
+        </div><!--//end header_content -->
+    </div><!--//end bg_header -->
+    <div id="bg_banner">
+        <div id="slides" class="in_slide">
+            <div class="slides_container">
+                <a href="javascript:"><img src="images/bannerin_01.jpg" width="980" height="164"></a>
+                <a href="javascript:"><img src="images/bannerin_02.jpg" width="980" height="164"></a>
+                <a href="javascript:"><img src="images/bannerin_03.jpg" width="980" height="164"></a>
+            </div>
+        </div>
+    </div><!--//end bg_banner -->
+    <div id="container">
+        <div id="left">
+            <div id="left_section1">
+                <ul>
+                    <li class="left_title"><span class="icon-title"></span>About CPG</li>
+                    <li>For more than a few years, CPG has become one of the world largest online gaming companies, with a large number of online gaming websites. As the world’s most professional online entertainment operator, CPG has world-class consultants. With their research in gaming for over 30 years, CPG has accumulated rich experience in marketing, advanced technology forces to form a competent organizational system.</li>
+                    <li>Being one of leading companies in the design and development of solution with the most advanced technology, we offer versatile gaming solutions and customization services successfully for gaming industry. </li>
+                    <li></li>
+                </ul>
+            </div>
+            <a href="join.html">
+                <div id="left_section2">
+                    <div class="left_sec2_title">Current<br /><span class="blue_text">Vacancies</span></div>
+                    <div class="left_sec2_join">JOIN US  ></div>
+                </div>
+            </a>
+            <a href="recruitment.html">
+                <div id="left_section3">
+                    <div class="left_sec3_title"><span class="blue_text">Recruitment</span><br />Process</div>
+                </div>
+            </a>
+        </div>
+        <div id="right">
+            <div id="right_title">
+                <div class="right_title_text title_contact">Contact Us</div>
+                <div class="right_link"><span class="icon_bread"></span>HOME > CONTACT</div>
+            </div>
+            <div id="right_content">
+                <div class="right_content_pic">
+                    <img src="images/contact_pic.jpg" width="339" height="242" />
+                </div>
+                <p>
+                    Please send your personal profile to us via email:
+                    <a href="mailto:recruitment@cpg-ltd.com">recruitment@cpg-ltd.com</a></p>
+                <div class="right_bottom_pic contact_bottom_pic"></div>
+
+            </div>
+        </div>
+    </div><!--//end container -->
+    <div id="bg_footer" class="about_footer">
+        <div id="footer_content">
+            <div id="footer_nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="sep-line"></li>
+                    <li><a href="about.html">About CPG</a></li>
+                    <li class="sep-line"></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li class="sep-line"></li>
+                    <li><a href="join.html">Join us</a></li>
+                    <li class="sep-line"></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="sep-line"></li>
+                    <li><a href="mailto:recruitment@cpg-ltd.com">recruitment@cpg-ltd.com</a></li>
+                </ul>
+            </div>
+            <div id="copyright">© 2014 Capital Power Global Limited All Rights Reserved. </div>
+        </div>
+    </div>
+    <div id="gotop">TOP</div>
+</div><!--//end bg -->
+
+</body>
+</html>
